@@ -10,8 +10,10 @@ class Page {
     get notification () { return $('.ant-notification-notice-message') }
 
     clearInput (element) {
-        element.keys(['Control', 'a']);
-        element.keys(['Backspace']);
+        const textLength = element.getValue().length;
+        for (let i = 0; i < textLength; i++) {
+            element.keys(['Backspace']);
+        }
     }
 }
 
