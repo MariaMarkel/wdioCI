@@ -1,7 +1,7 @@
-import Page from './page';
+import AppPage from "./app.page";
 
-class ProfilePage extends Page {
-    get userIcon () { return $('svg[data-icon="user"]') }
+class ProfilePage extends AppPage {
+
 }
 
 export default new ProfilePage();
