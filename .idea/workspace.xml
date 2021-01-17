@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8468428c-9bab-4bd4-b8b1-fb43d1e05b5c" name="Default Changelist" comment="refactor clearInput method to be available on all OS&#10;remove msedgedriver from dependencies and configuration">
-      <change afterPath="$PROJECT_DIR$/chrome.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chrome.headless.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/base.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/hooks.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/firefox.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/firefox.headless.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/pageobjects/app.page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/pageobjects/courses.page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/specs/navigation.spec.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/pageobjects/profile.page.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/pageobjects/profile.page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/specs/example.e2e.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/specs/auth.spec.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wdio.conf.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +48,7 @@
       <recent name="C:\Users\Dmitriy\WebstormProjects\webdrivertest" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.report:generate">
+  <component name="RunManager" selected="npm.test:chrome:headless">
     <configuration name="report:generate" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -88,6 +74,16 @@
       <command value="run" />
       <scripts>
         <script value="test:chrome" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="test:chrome:headless" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test:chrome:headless" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -119,12 +115,13 @@
       <item itemvalue="npm.test:firefox" />
       <item itemvalue="npm.test:firefox:headless" />
       <item itemvalue="npm.test:chrome" />
+      <item itemvalue="npm.test:chrome:headless" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.test:firefox" />
         <item itemvalue="npm.test:chrome" />
         <item itemvalue="npm.test:firefox:headless" />
-        <item itemvalue="npm.test:firefox" />
         <item itemvalue="npm.report:generate" />
       </list>
     </recent_temporary>
